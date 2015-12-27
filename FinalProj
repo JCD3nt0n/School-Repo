@@ -1,0 +1,41 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication14;
+import java.util.Random;
+import java.util.Scanner;
+
+
+/**
+ *
+ * @author ultimateon
+ */
+public class JavaApplication14 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+       int mstrmind_random0,mstrmind_random1,mstrmind_random2,mstrmind_random3, input1,input2,input3;
+       int end;
+       Scanner keyboard = new Scanner(System.in);
+       Random random = new Random ();
+       
+       
+       do {
+       mstrmind_random0 = random.nextInt(10);
+       mstrmind_random1 = random.nextInt(10)*10;
+       mstrmind_random2 = random.nextInt(10)*100;
+       mstrmind_random3 = random.nextInt(10)*1000;
+       System.out.println(mstrmind_random0+mstrmind_random1+mstrmind_random2+mstrmind_random3);
+       end = keyboard.nextInt();
+    } while (end > 0);
+    
+       
+       
+                
+    }
+    
+}
