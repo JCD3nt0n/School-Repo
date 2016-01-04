@@ -25,11 +25,16 @@ public class JavaApplication14 {
        
        
        do {
-       mstrmind_random0 = random.nextInt(10);
+      /** mstrmind_random0 = random.nextInt(10);
        mstrmind_random1 = random.nextInt(10)*10;
        mstrmind_random2 = random.nextInt(10)*100;
        mstrmind_random3 = random.nextInt(10)*1000;
-       System.out.println(mstrmind_random0+mstrmind_random1+mstrmind_random2+mstrmind_random3);
+       **/
+      mstrmind_random0 = (random.nextInt(10));
+      mstrmind_random1 = (random.nextInt(10));
+      mstrmind_random2 = (random.nextInt(10));
+      mstrmind_random3 = (random.nextInt(10));
+       System.out.print(mstrmind_random0+""+mstrmind_random1+""+mstrmind_random2+""+mstrmind_random3);
        end = keyboard.nextInt();
     } while (end > 0);
     
@@ -39,3 +44,4 @@ public class JavaApplication14 {
     }
     
 }
+
